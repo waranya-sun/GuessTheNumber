@@ -1,3 +1,9 @@
+<a href="https://heroku.com/deploy?template=https://github.com/waranya-sun/GuessTheNumber">
+			<span class="postimagessection">
+				<img class="postimages" src="https://www.herokucdn.com/deploy/button.png">
+			</span>
+</a>
+
 # Guessthenumber
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2.
