@@ -1,0 +1,21 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6 styledIt">
+      <div style="text-align:center">
+        <h1>Let's Guess the Number!</h1>
+        <div>Guess the computer generated random number between 1 to 10</div>
+        <h3>Enter a number : <input type="number" id="userGuessedNum" #userGuessedNum></h3>
+        <button type="button" class="btn btn-primary" (click)="onVerify(userGuessedNum)">Verify</button>
+        <button type="button" class="btn btn-danger" (click)="onClear()">Clear</button>
+        <br>
+        <br>
+        <div class="alert alert-warning" *ngIf = "afterSubtraction<0">Your guess number is too high</div>
+        <div class="alert alert-warning" *ngIf = "afterSubtraction>0">Your guess number is too low</div>
+        <div class="alert alert-warning" *ngIf = "afterSubtraction===0">Hoo rayyy...You are RIGHT!!!</div>
+        <div class="badge">Number of your guesses : {{numOfGuessing}} </div>
+      </div>
+    </div>
+    <div class="col-sm-3"></div>
+  </div>
+</div>
