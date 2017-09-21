@@ -1,5 +1,5 @@
 
-<a href="https://guess-the-number-game.herokuapp.com/">View DEMO</a>
+<a href="https://guess-the-number-game.herokuapp.com/">View DEMO hosted on Heroku</a>
 
 # Guessthenumber
 
