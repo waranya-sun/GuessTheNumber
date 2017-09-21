@@ -1,8 +1,5 @@
-<a href="https://heroku.com/deploy?template=https://github.com/waranya-sun/GuessTheNumber">
-			<span class="postimagessection">
-				<img class="postimages" src="https://www.herokucdn.com/deploy/button.png">
-			</span>
-</a>
+
+<a href="https://guess-the-number-game.herokuapp.com/">View DEMO</a>
 
 # Guessthenumber
 
